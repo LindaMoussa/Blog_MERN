@@ -5,6 +5,16 @@
     font-size: 1.9rem !important;
 }
 
+.signinBtn {
+    border-color: #c769f9fa !important;
+    color: #fff !important;
+}
+
+.signinBtn:hover {
+    background-color: #c769f9fa !important;
+    color: #fff !important;
+}
+
 .user-name,
 .user-email {
     text-align: center;

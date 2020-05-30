@@ -8,6 +8,7 @@ import Home from './home';
 import Aboutus from "./aboutus";
 import Contactus from "./contactus";
 import NotFound from "./notfound";
+import newBlog from "./newBlog";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/contact" component={Contactus} />
               <Route path="/profile" component={Profile} />
               <Route path="/registeration" component={SignIn} />
+              <Route path="/newBlog" component={newBlog} />
               <Route path="/" exact component={Home}/>
               <Redirect from="/home" to="/" />
               <Redirect to="/notfound" />

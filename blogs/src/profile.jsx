@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Blog from "./blog";
+import { Link } from "react-router-dom";
 
 class Profile extends Component {
   state = {};
@@ -18,6 +19,7 @@ class Profile extends Component {
               <div className="user-email">
                 <h4>email@example.com</h4>
               </div>
+              <Link to="/newBlog">Write new blog</Link>
             </div>
             <div className="col-md-9">
               <Blog class="col-md-9"></Blog>

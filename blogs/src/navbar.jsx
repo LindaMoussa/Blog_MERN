@@ -48,7 +48,7 @@ class Navbar extends Component {
             </ul>
 
             <Link
-              className="btn btn-outline-warning my-2 my-sm-0"
+              className="btn signinBtn my-2 my-sm-0"
               type="submit"
               to="registeration"
             >
