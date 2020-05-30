@@ -1,0 +1,24 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin: 5% 3%;
+  padding: 5% 3%;
+  /* align-items: center; */
+}
+
+.title-wrapper {
+  margin: 2% 0 5% 0;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: auto;
+}
+
+.submit-btn {
+  width: 100%;
+}
